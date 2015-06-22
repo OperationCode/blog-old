@@ -39,7 +39,7 @@ activate :directory_indexes
 
 set :casper, {
   blog: {
-    url: 'http://www.example.com',
+    url: 'http://operationcode.github.io/',
     name: 'Operation Code',
     description: 'Veterans blogging about code.',
     date_format: '%d %B %Y',
@@ -141,7 +141,7 @@ set :partials_dir, 'partials'
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
   # activate :minify_javascript
