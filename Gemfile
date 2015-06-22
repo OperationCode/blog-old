@@ -16,10 +16,3 @@ gem 'redcarpet', '~> 3.2.3'
 
 # For "summary"-Helper
 gem 'nokogiri', '~> 1.6.6.2'
-
-
-
-
-
-
-
