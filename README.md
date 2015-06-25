@@ -22,11 +22,11 @@ Copy one of the existing markdown files and update the title, author, and date f
 Once finished, while still in the source branch, enter the following:
 ```bash
 git add .
-git commit -m '<enter in your commit message here>'
+git commit
 git push
 ```
 
-Once the changes are pushed to your repo, open a pull request to submit changes to main Operation Code blog repo.
+Once the changes are pushed to your repo, open a pull request to submit changes to Operation Code blog repo.
 
 
 ## Blog Owner

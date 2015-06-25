@@ -58,9 +58,11 @@ module MiddlemanCasperHelpers
   def is_tag_page?
     current_resource.metadata[:locals]['page_type'] == 'tag'
   end
+  
   def tags?(article = current_article)
     article.tags.present?
   end
+  
   def tags(article = current_article, separator = ', ')
     capture_haml do
       article.tags.each do |tag|
@@ -81,6 +83,7 @@ module MiddlemanCasperHelpers
       { class: 'no-cover' }
     end
   end
+  
   def cover?(page = current_page)
     page.data.cover.present?
   end
@@ -89,6 +92,7 @@ module MiddlemanCasperHelpers
     md5 = Digest::MD5.hexdigest(blog_author.gravatar_email.downcase)
     "https://www.gravatar.com/avatar/#{md5}?size=#{size}"
   end
+  
   def gravatar?
     blog_author.gravatar_email.present?
   end
@@ -97,9 +101,11 @@ module MiddlemanCasperHelpers
     "https://twitter.com/share?text=#{current_article.title}" \
       "&amp;url=#{current_article_url}"
   end
+  
   def facebook_url
     "https://www.facebook.com/sharer/sharer.php?u=#{current_article_url}"
   end
+  
   def google_plus_url
     "https://plus.google.com/share?url=#{current_article_url}"
   end
@@ -111,9 +117,11 @@ module MiddlemanCasperHelpers
       "#{blog.options.prefix.to_s}/feed.xml"
     end
   end
+  
   def home_path
     "#{blog.options.prefix.to_s}/"
   end
+  
   def author_path
     "#{blog.options.prefix.to_s}/author/#{blog_author.name.parameterize}/"
   end
