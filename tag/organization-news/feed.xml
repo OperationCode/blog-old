@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Operation Code: Organization News</title>
+  <subtitle>Posts tagged with Organization News</subtitle>
+  <id>http://operationcode.github.io/</id>
+  <link href="http://operationcode.github.io/"/>
+  <link href="http://operationcode.github.io/tag/organization-news/feed.xml" rel="self"/>
+  <updated>2015-07-25T17:00:00-07:00</updated>
+  <author>
+    <name>Middleman</name>
+  </author>
+  <entry>
+    <title>Announcing Operation Code Blog</title>
+    <link rel="alternate" href="http://operationcode.github.io/2015/07/26/announcing-operation-code-blog/"/>
+    <id>http://operationcode.github.io/2015/07/26/announcing-operation-code-blog/</id>
+    <published>2015-07-25T17:00:00-07:00</published>
+    <updated>2015-07-26T19:23:14-07:00</updated>
+    <author>
+      <name>Middleman</name>
+    </author>
+    <summary type="html">Today we proudly launch our Operation Code blog where we’ll share thoughts, insights and lessons learned as we build a coding veterans service organization. While these two Operation Code videos best tell our story, let me explain here the “why” we exist</summary>
+  </entry>
+</feed>

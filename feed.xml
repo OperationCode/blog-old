@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Operation Code</title>
+  <subtitle>Veterans blogging about code.</subtitle>
+  <id>http://operationcode.github.io/</id>
+  <link href="http://operationcode.github.io/"/>
+  <link href="http://operationcode.github.io/feed.xml" rel="self"/>
+  <updated>2015-07-25T17:00:00-07:00</updated>
+  <author>
+    <name>Middleman</name>
+  </author>
+  <entry>
+    <title>Announcing Operation Code Blog</title>
+    <link rel="alternate" href="http://operationcode.github.io/2015/07/26/announcing-operation-code-blog/"/>
+    <id>http://operationcode.github.io/2015/07/26/announcing-operation-code-blog/</id>
+    <published>2015-07-25T17:00:00-07:00</published>
+    <updated>2015-07-26T19:23:14-07:00</updated>
+    <author>
+      <name>Middleman</name>
+    </author>
+    <summary type="html">Today we proudly launch our Operation Code blog where we’ll share thoughts, insights and lessons learned as we build a coding veterans service organization. While these two Operation Code videos best tell our story, let me explain here the “why” we exist</summary>
+  </entry>
+  <entry>
+    <title>Second Post</title>
+    <link rel="alternate" href="http://operationcode.github.io/2013/10/30/Second-Post/"/>
+    <id>http://operationcode.github.io/2013/10/30/Second-Post/</id>
+    <published>2013-10-29T17:00:00-07:00</published>
+    <updated>2015-07-26T16:04:11-07:00</updated>
+    <author>
+      <name>Middleman</name>
+    </author>
+    <summary type="html">You’re in! Nice. We’ve put together a little post to introduce you to the Ghost
+editor and get you started. Go ahead and edit this post to get going and learn
+how it all works!
+
+Getting Started
+
+Writing in markdown is really easy. In the left hand panel</summary>
+  </entry>
+</feed>
