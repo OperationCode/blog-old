@@ -39,7 +39,7 @@ activate :directory_indexes
 
 set :casper, {
   blog: {
-    url: 'http://operationcode.github.io/',
+    url: 'http://blog.operationcode.org/',
     name: 'Operation Code',
     description: 'Veterans blogging about code.',
     date_format: '%d %B %Y',
@@ -47,7 +47,7 @@ set :casper, {
     logo: nil # Optional
   },
   author: {
-    name: 'Middleman',
+    name: 'Operation Code',
     bio: nil, # Optional
     location: nil, # Optional
     website: nil, # Optional
