@@ -7,6 +7,9 @@ gem 'middleman-blog', '~> 3.5.3'
 gem 'middleman-livereload', '~> 3.4.2'
 gem "middleman-deploy", "~> 1.0"
 
+# For GitHub Pages
+gem 'middleman-gh-pages'
+
 # For feed.xml.builder
 gem 'builder', '~> 3.2.2'
 
